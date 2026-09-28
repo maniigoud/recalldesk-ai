@@ -1,0 +1,30 @@
+# secrets - never commit
+.env
+**/.env
+**/.env.local
+**/.env.*.local
+
+# python
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/htmlcov/
+**/.coverage
+
+# node / next
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/npm-debug.log*
+
+# editors / os
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
